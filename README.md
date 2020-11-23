@@ -9,6 +9,6 @@ Passos: VScode
 
 3º Selecione a pasta com os arquivos e arraste até a interface do VScode
 
-Obs: os arquivos do porjeto estão na branch MASTER 
+# Obs: os arquivos do porjeto estão na branch MASTER 
 
 
