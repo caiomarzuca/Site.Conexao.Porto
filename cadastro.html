@@ -22,8 +22,10 @@
         <div class="row">
             <div class="col-6">
                 <div class="card">
+                    <!-- Borda que envolve o forms de cadastro-->
                     <div class="card-body">
-                        <form>
+                        <!-- Estrutura do formulário de cadastro -->
+                        <form id="form-contato">
                             <div class="form-group">
                                 <label for="nome">Nome:</label>
                                 <input class="form-control" type="text" name="nome" id="nome"
@@ -52,7 +54,8 @@
                             <div class="form-group text-center">
                                 <button type="submit" class="btn btn-primary">Cadastrar</button>
                             </div>
-                            <div class="atert alert-danger d-none">Preencha o campo XXXX</div>
+                            <!-- Alerta para controlar se os campos do formsn foram preenchidos corretamente-->
+                            <div class="alert alert-danger d-none">Preencha o campo <span id="campo-erro"></span>!</div>
                         </form>
                     </div>
                 </div>
@@ -70,6 +73,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
+
+    <script src="js/formulario.js"></script>
 </body>
 
 </html>
