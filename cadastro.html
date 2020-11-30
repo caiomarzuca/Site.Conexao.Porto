@@ -18,6 +18,7 @@
 </head>
 
 <body>
+<<<<<<< HEAD
     <div class="container">
         <div class="row">
             <div class="col-6">
@@ -30,40 +31,97 @@
                                 <label for="nome">Nome:</label>
                                 <input class="form-control" type="text" name="nome" id="nome"
                                     placeholder="Digite o seu nome...">
+=======
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="/index.html" class="navbar-brand">
+                    <img id="logo" src="img/logo_conexao_porto.png" alt="Conexao Porto">
+                    <!-- ao clicar na logo vai para a home -->
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+                    aria-controls="navbar-links">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-links" id="sobre-menu" href="/index.html#sobre-area">Sobre nós</a>
+                        <!-- ao clicar em "sobre nos" vai para a home exatamente na parte do texto -->
+                        <a class="nav-item nav-links" id="cadastro-menu" href="/cadastro.html">Cadastre-se</a>
+                        <a class="nav-item nav-links" id="login-menu" href="/login.html">Login</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row justify-content-center"> <!-- justify-content-center => centraliza conteúdo -->
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body">
+                        <form id="form-contato" action="#" th:action="CadastrarProfissional" method="post">
+                            <div class="form-group">
+                                <label for="nome">Nome:</label>
+                                <input class="form-control" type="text" name="nome" id="nome"
+                                    placeholder="Informe seu nome">
+>>>>>>> main
                             </div>
                             <div class="form-group">
                                 <label for="email">Email:</label>
                                 <input class="form-control" type="email" name="email" id="email"
+<<<<<<< HEAD
                                     placeholder="Digite o seu email...">
+=======
+                                    placeholder="Informe seu email">
+>>>>>>> main
                             </div>
                             <div class="form-group">
                                 <label for="confirmacao-email">Confirme seu email:</label>
                                 <input class="form-control" type="email" name="confirmacao-email" id="confirmacao-email"
+<<<<<<< HEAD
                                     placeholder="Digite o seu email novamente...">
+=======
+                                    placeholder="Confirme seu e-mail">
+>>>>>>> main
                             </div>
                             <div class="form-group">
                                 <label for="senha">Senha:</label>
                                 <input class="form-control" type="text" name="senha" id="senha"
+<<<<<<< HEAD
                                     placeholder="Digite o sua senha...">
+=======
+                                    placeholder="Informe uma senha">
+>>>>>>> main
                             </div>
                             <div class="form-group">
                                 <label for="confirmacao-senha">Confirme sua senha:</label>
                                 <input class="form-control" type="text" name="confirmacao-senha" id="confirmacao-senha"
+<<<<<<< HEAD
                                     placeholder="Digite o sua senha novamente...">
+=======
+                                    placeholder="Confirme a senha">
+>>>>>>> main
                             </div>
                             <div class="form-group text-center">
                                 <button type="submit" class="btn btn-primary">Cadastrar</button>
                             </div>
+<<<<<<< HEAD
                             <!-- Alerta para controlar se os campos do formsn foram preenchidos corretamente-->
+=======
+>>>>>>> main
                             <div class="alert alert-danger d-none">Preencha o campo <span id="campo-erro"></span>!</div>
                         </form>
                     </div>
                 </div>
             </div>
+<<<<<<< HEAD
 
             <div class="col-6">
                 <h2>Teste2</h2>
             </div>
+=======
+>>>>>>> main
         </div>
     </div>
 
@@ -73,8 +131,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
+<<<<<<< HEAD
 
     <script src="js/formulario.js"></script>
+=======
+    <script src="/js/formulario.js"></script>
+>>>>>>> main
 </body>
 
 </html>
