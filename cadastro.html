@@ -21,18 +21,15 @@
     <header>
         <div class="container" id="nav-container">
             <nav class="navbar navbar-expand-lg fixed-top">
-                <a href="/index.html" class="navbar-brand">
-                    <img id="logo" src="img/logo_conexao_porto.png" alt="Conexao Porto">
-                    <!-- ao clicar na logo vai para a home -->
+                <a class="navbar-brand" href="/index.html">
+                    <img id="logo" src="../static/img/logo_conexao_porto.png" th:src="@{/img/logo_conexao_porto.png}" alt="Conexao Porto">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
-                    aria-controls="navbar-links">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links">
+                <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-links" id="sobre-menu" href="/index.html#sobre-area">Sobre nós</a>
-                        <!-- ao clicar em "sobre nos" vai para a home exatamente na parte do texto -->
+                        <a class="nav-item nav-links" id="sobre-menu" href="#sobre-area">Sobre nós</a>
                         <a class="nav-item nav-links" id="cadastro-menu" href="/cadastro.html">Cadastre-se</a>
                         <a class="nav-item nav-links" id="login-menu" href="/login.html">Login</a>
                     </div>
@@ -89,7 +86,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
-    <script src="/js/formulario.js"></script>
+    <script src="../static/js/formulario.js" th:src="@{/js/formulario.js}"></script>
 </body>
 
 </html>

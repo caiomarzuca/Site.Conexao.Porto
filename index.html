@@ -27,8 +27,8 @@
     <header>
         <div class="container" id="nav-container">
             <nav class="navbar navbar-expand-lg fixed-top">
-                <a href="#" class="navbar-brand" href="index.html">
-                    <img id="logo" src="img/logo_conexao_porto.png" alt="Conexao Porto">
+                <a class="navbar-brand" href="/index.html">
+                    <img id="logo" src="../static/img/logo_conexao_porto.png" th:src="@{/img/logo_conexao_porto.png}" alt="Conexao Porto">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links">
                 <span class="navbar-toggler-icon"></span>
@@ -58,7 +58,7 @@
                 <div class="carousel-inner">
                     <!--Slide 1-->
                     <div class="carousel-item active">
-                        <img src="img/banner1.png" class="d-block w-100" alt="imagem 1">
+                        <img src="../static/img/banner1.png" th:src="@{/img/banner1.png}" class="d-block w-100" alt="imagem 1">
                         <div class="carousel-caption d-nome d-md-block">
                             <h2>Quer criar um e-commerce?</h2>
                             <p>Conte conosco, temos mais de 30 lojas no portifólio.</p>
@@ -67,7 +67,7 @@
                     </div>
                     <!--Slide 2-->
                     <div class="carousel-item">
-                        <img src="img/banner2.png" class="d-block w-100" alt="imagem 2">
+                        <img src="../static/img/banner2.png" th:src="@{/img/banner1.png}" class="d-block w-100" alt="imagem 2">
                         <div class="carousel-caption d-nome d-md-block">
                             <h2>Está querendo tirar o projeto do papel?</h2>
                             <p>Conte conosco, temos mais de 30 lojas no portifólio.</p>
@@ -76,7 +76,7 @@
                     </div>
                     <!--Slide 3-->
                     <div class="carousel-item">
-                        <img src="img/banner3.png" class="d-block w-100" alt="imagem 3">
+                        <img src="../static/banner3.png" th:src="@{/img/banner1.png}" class="d-block w-100" alt="imagem 3">
                         <div class="carousel-caption d-nome d-md-block">
                             <h2>Quer uma manutenção de software?</h2>
                             <p>Conte conosco, temos mais de 30 lojas no portifólio.</p>
@@ -102,7 +102,7 @@
                             <h3 class="main-title">Sobre a Conexão Porto</h3>
                         </div>
                         <div class="col-md-6">
-                            <img class="img-fluid" src="img/agencia.jpg" alt="Conexão Porto">
+                            <img class="img-fluid" src="../static/img/agencia.jpg" th:src="@{/img/agencia.jpg}" alt="Conexão Porto">
                         </div>
 
                         <div class="col-md-6">
